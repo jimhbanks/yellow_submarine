@@ -1,0 +1,23 @@
+<div class="movie_details">
+
+<section class="top">
+
+  <div class = "back_button">
+  <a href="/result?q=<%=URI.escape(@movie["Title"])%>"><p> << Back to Search Results</p></a> 
+  </div>
+
+  <h2>Details.</h2>  
+<hr>
+</section>
+
+<section class="main_content">
+  <div class="movie_poster"><img src="<%= @movie["Poster"]%>"></div>
+  <div class="movie_text">
+    <h2><span class="movie_title"><%= @movie["Title"]%></span></h2>
+    <p><span class="keys">Release Year:</span>  <%= @movie["Year"]%></p> 
+    <p><span class="keys">Director:</span>  <%= @movie["Director"]%></p>    
+    <p><span class="keys">Plot:</span>  <%= @movie["Plot"]%></p> 
+    <p><span class="keys">Rotten Tomatoes Rating:</span>  <%= @movie["tomatoMeter"]%>%</p> 
+  </div> 
+</section>  
+</div> 

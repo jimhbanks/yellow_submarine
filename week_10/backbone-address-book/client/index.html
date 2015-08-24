@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Backbone Address Book</title>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700italic,400">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.1/backbone-min.js"></script>
+  <script src="js/models/contact.js"></script>
+  <script src="js/collections/address_book.js"></script>
+  <script src="js/views/contact_view.js"></script>
+  <script src="js/views/address_book_view.js"></script>
+  <script src="js/routes/router.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <div id="book">
+    <form action="#" id="add">
+      <input type="text" id="name" name="name" placeholder="Please enter a name"/>
+      <input type="text" id="number" name="number" placeholder="Please enter a number"/>
+      <input type="submit" value="Add"/>
+    </form>
+    <div id="contactList" class="pure-g">
+      <!-- contacts will be loaded inside here -->
+    </div>
+  </div>
+  <script type="text/x-underscore-template" id="tpl_contact">
+    <h1 class="name"><%= name %></h1>
+    <p class="number"><%= number %></p>
+    <button class="edit">Edit</button>
+    <button class="remove">Remove</button>
+  </script>
+</body>
+</html>
+
+
+
+
+

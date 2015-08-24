@@ -1,0 +1,7 @@
+  <p><%= @item['item'] %></p>
+  <p><%= @item['details'] %></p>
+
+ <a href="/items/<%= @item['id'] %>/edit">EDIT</a>
+<form action="/items/<%= @item['id'] %>/delete">
+  <button name="_method" value="delete">Delete</button>
+</form>

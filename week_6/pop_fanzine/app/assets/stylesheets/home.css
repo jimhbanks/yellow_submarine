@@ -1,0 +1,19 @@
+body {
+  background-color: grey;
+}
+
+    
+  #menu li  {
+    display: inline-block;
+    text-align: center;
+    padding: .25em 0.5em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: rgba(255,255,255,0.80);
+  }
+  
+
+
+  

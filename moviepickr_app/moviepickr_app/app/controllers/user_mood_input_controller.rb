@@ -1,0 +1,2 @@
+class UserMoodInputController < ApplicationController
+end

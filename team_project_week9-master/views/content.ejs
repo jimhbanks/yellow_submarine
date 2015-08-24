@@ -1,0 +1,12 @@
+<h2>Top rated games Friday 26th June</h2>
+<ul id="game-images-on-page" class="inline-list">
+
+	<% for(var i=0 ;i<gameImages.length;i++){%>
+	<li>
+		<div class="game-tile-div" class="gameshow">
+			<img class="index-page-img" href="<%-'/show/'+gameKeys[i]%>" id="<%- gameKeys[i] %>" src="<%- gameImages[i]; %>" data-type="page-transition">
+		</div>
+	</li>
+	<% } %>
+</ul>
+

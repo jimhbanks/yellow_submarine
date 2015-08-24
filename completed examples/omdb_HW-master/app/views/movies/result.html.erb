@@ -1,0 +1,5 @@
+<ol>
+  <% @movies.each do |movie| %>
+  <li><a href="/movie?t=<%=URI.escape(movie["Title"])%>"><%= movie["Title"]%></a></li>
+  <% end %>
+</ol>

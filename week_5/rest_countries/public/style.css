@@ -1,0 +1,17 @@
+body {
+  background-image: url('http://www.baldhiker.com/wp-content/uploads/world.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.buttons {
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-family: helvetica;
+  font-weight: bolder;
+  font-size: 45px;
+  text-align: center;
+}

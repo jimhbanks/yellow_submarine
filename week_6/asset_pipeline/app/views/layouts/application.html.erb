@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AssetPipeline</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div id="container">
+ <header>
+    <nav>
+      <li><%= link_to('HOME', root_path) %></li>
+      <li><%= link_to('MUSIC', pages_muic_path) %></li>
+      <li><%= link_to('GOSSIP', pages_gossip_path) %></li>
+      <li><%= link_to('SPORT', pages_sport_path) %></li>
+    </nav>
+  </header>
+  <%= yield %>
+</div>
+
+
+</body>
+</html>

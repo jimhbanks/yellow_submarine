@@ -1,0 +1,13 @@
+<div class='content>'
+
+ <% @videos.each do |video| %>
+        <tr>
+          <td>
+            <a href="/videos/<%= video['id'] %>">
+              <%= [video['artist'], video['title']].join(" - ") %>
+            </a>
+          </td>
+        </tr>
+      <% end %>
+</div>
+      

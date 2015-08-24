@@ -1,0 +1,11 @@
+<%= form_for [@hotel, @review] do |form| %>
+  
+  <%= form.label :description %>
+  <%= form.text_field :description %>
+
+  <%= form.label :rating %>
+  <%= form.select :rating, options_for_select(1..5) %>
+
+  <%= form.submit 'Submit' %>
+
+<% end %>

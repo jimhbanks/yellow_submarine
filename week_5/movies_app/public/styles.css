@@ -1,0 +1,20 @@
+body {
+/*  background-image: url('http://odemocratanaweb.com/wp-content/uploads/2015/05/cinema.png');
+*/
+
+}
+.title {
+  font-size: 50px;
+  color: red;
+  font-family: helvetica;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.poster {
+  margin-left: 400px;
+  img.ri { max-width: 90%; }
+
+}
+

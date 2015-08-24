@@ -1,0 +1,106 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  text-align: center;
+}
+#gameshowtitle{
+  color: black;
+}
+
+/********* LOGO STYLE**********/
+#logo {
+  height: 200px;
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 65px;
+  margin-bottom: 115px;
+  width: 520px;
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 230px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: rgb(255, 210, 71);
+  text-shadow: 
+    -1px -1px 0 rgb(103, 178, 34),
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    0px 20px 40px dimgrey
+}
+
+/*********SIGN-UP**********/
+#header {
+  position: relative;
+  width: 100%;
+  margin: 0 auto 30px;
+  padding: 4%;
+}
+
+/*********MAIN CONTAINER**********/
+ #games-container {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+#container {
+  margin: 0 auto;
+  width: 60%;
+  margin: 2px solid black;
+}
+
+.show-page-img{
+  height: 300px;
+}
+
+.index-page-img {
+  padding: 0;
+  margin: 0;
+  border: 1px solid black;
+  width: 200px;
+  height: 250px;
+  overflow: hidden;
+  margin-bottom: 15%;
+}
+
+p {
+  width: 200px;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+#main-games-container {
+  padding: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 1.3em;
+  margin: 2% 0; 
+  text-align: center;
+}
+

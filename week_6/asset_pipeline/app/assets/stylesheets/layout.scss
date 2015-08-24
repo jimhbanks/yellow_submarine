@@ -1,0 +1,14 @@
+$primary-color: grey;
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: $primary-color;
+  nav {
+    text-align: center;
+ 
+  li {
+    display: inline-block;
+  }
+ }
+}

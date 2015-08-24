@@ -1,0 +1,12 @@
+body {
+  background: #f4f4f4;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  border-top: 5px solid #f30;
+}
+
+h1, h2, h3 h4 {
+  font-weight: 700;
+  font-style: italic;
+  text-shadow: 0 3px #fff;
+}

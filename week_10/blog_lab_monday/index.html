@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog App Backbone</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.1/backbone-min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<body>
+  
+  <h1>Backbone blog about dog(s)</h1>
+  <div id="main"></div>
+  
+<script id="blog-view-template" type="text/x-underscore-template">
+      <h1><%= author %> </h1>
+      <h2>The <%= author %> lives in the <%= title %>.</h2>
+      <p>It has <%= content %> stripes.</p>
+      <a href="#">Back Home</a>
+  </script>
+  
+  <script id="blog-template" type="text/x-underscore-template">
+    <li>
+      The <%= author %> lives in the <%= title %>
+      <a href="#blogs/<%= blogID %>"><%= autor %></a>
+    </li>
+  </script>
+
+</script>  
+
+
+
+</body>
+</html>

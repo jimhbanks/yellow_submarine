@@ -1,0 +1,20 @@
+.box {
+  width:40px;
+  height:40px;
+}
+
+div {
+  background-color: rgba(0, 0, 255, 8);
+}
+
+.green {
+  background-color: rgba(0, 255, 0, 8);
+}
+
+#red {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+/*.purple {
+  background-color: purple !important;
+}*/

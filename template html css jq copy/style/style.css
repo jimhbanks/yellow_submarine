@@ -1,0 +1,38 @@
+body {
+  background-color: orange;
+}
+
+h1 {
+  font-family: helvetica;
+  color: pink;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: helvetica;
+  color: red;
+  font-size: 40px;
+} 
+
+#center-text {
+  width: 900px;
+  height: 700px;
+  border: black 1px;
+  background-color: purple;
+  text-align: center;
+  margin-left: 200px;
+}
+
+#imagepav {
+  background-image: url("images/artpav.jpg");
+  width: 700px;
+  height: 200px;
+}
+
+#text-box {
+  width: 700px;
+  height: 200px;
+  background-color: red;
+}
+
+

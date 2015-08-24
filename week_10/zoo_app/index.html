@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.1/backbone-min.js"></script>
+  <script src="js/models/animal.js"></script>
+  <script src="js/collections/zoo.js"></script>
+  <script src="js/views/animal_view.js"></script>
+  <script src="js/views/zoo.js"></script>
+  <script src="js/routes/app_router.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <div id="main"></div>
+
+  <script id="animal-view-template" type="text/x-underscore-template">
+      <h1><%= type %> </h1>
+      <h2>The <%= type %> lives in the <%= ecosystem %>.</h2>
+      <p>It has <%= stripes %> stripes.</p>
+      <a href="#">Back Home</a>
+  </script>
+  
+  <script id="animal-template" type="text/x-underscore-template">
+    <li>
+      The <%= type %> lives in the <%= ecosystem %>
+      <a href="#animals/<%= animalID %>"><%= type %></a>
+    </li>
+  </script>
+</body>
+</html>
+
+
+
+
+

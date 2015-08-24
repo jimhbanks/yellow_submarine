@@ -1,0 +1,17 @@
+<h1><%=@item['item']%></h1>
+
+<section>
+  <article>
+    <p>
+      <%=@item['details']%>
+    </p>
+    <ul class="button-group">
+      <li ><a href='/items/<%=@item['id']%>/edit' class="button">Edit</a></li>
+      <li>
+        <form action='/items/<%=@item['id']%>/delete' method="post">
+          <button class="button">Delete</button>
+        </form>
+      </li>
+    </ul>
+  </article>
+</section>

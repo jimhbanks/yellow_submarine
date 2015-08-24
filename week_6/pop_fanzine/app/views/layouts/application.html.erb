@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PopFanzine</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+  <%= image_tag('tumblr_mq3w137RAg1s3oluio1_400.png') %>
+
+<div id="menu">
+
+<li><%= link_to("Home", root_path, class: 'menu')%></li>
+<li><%= link_to("Paul", paul_path)%></li>
+<li><%= link_to("John", john_path)%></li>
+<li><%= link_to("George", george_path)%></li>
+<li><%= link_to("Ringo", ringo_path)%></li>
+<li><%= link_to("Discography", discography_path)%></li>
+
+
+</div>
+
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>

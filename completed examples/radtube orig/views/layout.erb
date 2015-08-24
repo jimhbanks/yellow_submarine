@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel='stylesheet' href='/normalize.css'>
+<link rel="stylesheet" href="style.css">
+  <title>RADTUBE - The place 4 cool vid's</title>
+</head>
+<body>
+    <header>
+      <h1><a href="/">MEME TUBE</a></h1>
+    </header>
+
+    <!-- generating and displaying the NAV menu -->
+    <nav>
+      <ul>
+        <a href='/videos/new'><li class="static">Add New Item</li></a>
+      </ul>
+    </nav>
+
+    <div id="container">
+      <div id="content">
+        <%= yield %>
+      </div>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(84, 189, 82);
+}
+
+p {
+  color:blue:
+}
+h1 {
+  color:red;
+  font-family: 'Lobster', cursive;
+}
+h2 {
+  color: rgb(243, 22, 122);
+}
+
+div.promo {
+  background-color: rgba(149, 120, 194, 1);
+  border-radius: 40px;
+}
+
+.pencil-promo {
+  border: 20px dotted-green;
+}
+
+.rubber-promo {
+  border: 5px dotted-blue;
+}
+
+.supplies {
+  font-style: italic;
+}
+
+.italic {
+  font-style: italic;
+  color: red;
+  font-style: 36px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(104, 250, 205);
+}
+
+.nav-links a:visited {
+  color: rgb(243, 40, 38);
+}
+.nav-links a:hover {
+  color: rgba(23, 45, 85, 0.5);
+}
+
+.nav-links a:active {
+  color: rgb(243, 121, 34);
+}

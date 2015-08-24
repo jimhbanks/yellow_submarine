@@ -1,0 +1,13 @@
+<h3>This is the planets index page</h3>
+
+<div class="list-group">
+  <% @planets.each do |planet| %>
+    <div class="list-group-item">
+      <ul class="planet">
+        <li><%= link_to(planet.name, planet_path(planet.id))%></li>
+        <li><%= link_to('DELETE', planet_path(planet.id), method: :delete)%></li>
+        <li><%= link_to('EDIT', edit_planet_path(planet.id))%></li>
+      </ul>
+    </div>
+  <% end %>
+</div>

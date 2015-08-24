@@ -1,0 +1,9 @@
+<h1>This is the index</h1>
+
+<p><a href="/items/new">Create Item</a></p>
+
+<ul>
+<% @items.each do |item| %>
+  <li><a href="/items/<%= item['id'] %><%= item['item'] %></a></li>
+<% end %>
+</ul>

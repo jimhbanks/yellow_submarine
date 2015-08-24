@@ -1,0 +1,22 @@
+<h1>Items</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Item Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @items.each do |item| %>
+    <tr>
+      <td>
+        <h4>
+          <a href='/items/<%=item['id']%>'>
+            <%=item['item']%>
+          </a>
+        </h4>
+      </td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
